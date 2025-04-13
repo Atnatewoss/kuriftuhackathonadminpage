@@ -1,74 +1,174 @@
 {
-    "members": [
-      {
-        "id": "mem-1",
-        "name": "Abebe Kebede",
-        "email": "abebe.k@example.com",
-        "tier": "Gold",
-        "points": 15000,
-        "joinDate": "2023-01-15",
-        "lastVisit": "2024-02-20",
-        "totalSpent": 25000,
-        "preferences": ["Spa", "Fine Dining", "Lake View Rooms"],
-        "visitHistory": [
-          {
-            "id": "v1",
-            "date": "2024-02-20T10:00:00Z",
-            "type": "Spa",
-            "amount": 300,
-            "location": "Lake Tana"
-          },
-          {
-            "id": "v2",
-            "date": "2024-01-15T14:30:00Z",
-            "type": "Restaurant",
-            "amount": 250,
-            "location": "Addis Ababa"
-          },
-          {
-            "id": "v3",
-            "date": "2023-12-20T11:00:00Z",
-            "type": "Hotel",
-            "amount": 800,
-            "location": "Lake Tana"
-          }
-        ],
-        "churnRisk": 0.2
-      },
-      {
-        "id": "mem-2",
-        "name": "Sara Mohammed",
-        "email": "sara.m@example.com",
-        "tier": "Platinum",
-        "points": 30000,
-        "joinDate": "2022-06-10",
-        "lastVisit": "2024-03-01",
-        "totalSpent": 45000,
-        "preferences": ["Adventure Tours", "Luxury Suites", "Wellness"],
-        "visitHistory": [
-          {
-            "id": "v4",
-            "date": "2024-03-01T09:00:00Z",
-            "type": "Adventure",
-            "amount": 500,
-            "location": "Entoto"
-          },
-          {
-            "id": "v5",
-            "date": "2024-02-15T13:00:00Z",
-            "type": "Hotel",
-            "amount": 1200,
-            "location": "Bishoftu"
-          },
-          {
-            "id": "v6",
-            "date": "2024-01-20T10:30:00Z",
-            "type": "Spa",
-            "amount": 400,
-            "location": "Lake Tana"
-          }
-        ],
-        "churnRisk": 0.1
-      }
-    ]
-  }
+  "members": [
+    {
+      "id": "mem-1",
+      "name": "Abebe Kebede",
+      "email": "abebe.k@example.com",
+      "tier": "Gold",
+      "points": 15000,
+      "joinDate": "2023-01-15",
+      "lastVisit": "2024-02-20",
+      "totalSpent": 25000,
+      "preferences": ["Spa", "Fine Dining", "Lake View Rooms"],
+      "visitHistory": [
+        { "id": "v1", "date": "2024-02-20T10:00:00Z", "type": "Spa", "amount": 300, "location": "Lake Tana" },
+        { "id": "v2", "date": "2024-01-15T14:30:00Z", "type": "Restaurant", "amount": 250, "location": "Addis Ababa" },
+        { "id": "v3", "date": "2023-12-20T11:00:00Z", "type": "Hotel", "amount": 800, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.2
+    },
+    {
+      "id": "mem-2",
+      "name": "Sara Mohammed",
+      "email": "sara.m@example.com",
+      "tier": "Platinum",
+      "points": 30000,
+      "joinDate": "2022-06-10",
+      "lastVisit": "2024-03-01",
+      "totalSpent": 45000,
+      "preferences": ["Adventure Tours", "Luxury Suites", "Wellness"],
+      "visitHistory": [
+        { "id": "v4", "date": "2024-03-01T09:00:00Z", "type": "Adventure", "amount": 500, "location": "Entoto" },
+        { "id": "v5", "date": "2024-02-15T13:00:00Z", "type": "Hotel", "amount": 1200, "location": "Bishoftu" },
+        { "id": "v6", "date": "2024-01-20T10:30:00Z", "type": "Spa", "amount": 400, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.1
+    },
+    {
+      "id": "mem-3",
+      "name": "Tigist Alemayehu",
+      "email": "tigist.a@example.com",
+      "tier": "Silver",
+      "points": 8000,
+      "joinDate": "2023-05-22",
+      "lastVisit": "2024-03-15",
+      "totalSpent": 12000,
+      "preferences": ["Restaurant", "Local Cuisine", "City Tours"],
+      "visitHistory": [
+        { "id": "v7", "date": "2024-03-15T11:00:00Z", "type": "Restaurant", "amount": 200, "location": "Addis Ababa" },
+        { "id": "v8", "date": "2024-02-28T15:30:00Z", "type": "Hotel", "amount": 600, "location": "Addis Ababa" },
+        { "id": "v9", "date": "2024-02-10T12:00:00Z", "type": "Adventure", "amount": 350, "location": "Entoto" }
+      ],
+      "churnRisk": 0.4
+    },
+    {
+      "id": "mem-4",
+      "name": "Bereket Tesfaye",
+      "email": "bereket.t@example.com",
+      "tier": "Bronze",
+      "points": 3000,
+      "joinDate": "2023-11-01",
+      "lastVisit": "2024-04-05",
+      "totalSpent": 5000,
+      "preferences": ["Hotel", "Budget Rooms", "Hiking"],
+      "visitHistory": [
+        { "id": "v10", "date": "2024-04-05T14:00:00Z", "type": "Hotel", "amount": 400, "location": "Bishoftu" },
+        { "id": "v11", "date": "2024-03-25T10:30:00Z", "type": "Restaurant", "amount": 150, "location": "Bishoftu" },
+        { "id": "v12", "date": "2024-03-10T09:00:00Z", "type": "Adventure", "amount": 250, "location": "Entoto" }
+      ],
+      "churnRisk": 0.6
+    },
+    {
+      "id": "mem-5",
+      "name": "Lidiya Getachew",
+      "email": "lidiya.g@example.com",
+      "tier": "Gold",
+      "points": 20000,
+      "joinDate": "2022-12-18",
+      "lastVisit": "2024-03-20",
+      "totalSpent": 32000,
+      "preferences": ["Spa", "Relaxation", "Cultural Events"],
+      "visitHistory": [
+        { "id": "v13", "date": "2024-03-20T11:30:00Z", "type": "Spa", "amount": 350, "location": "Lake Tana" },
+        { "id": "v14", "date": "2024-03-05T16:00:00Z", "type": "Restaurant", "amount": 280, "location": "Addis Ababa" },
+        { "id": "v15", "date": "2024-02-20T13:00:00Z", "type": "Hotel", "amount": 900, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.15
+    },
+    {
+      "id": "mem-6",
+      "name": "Dawit Solomon",
+      "email": "dawit.s@example.com",
+      "tier": "Platinum",
+      "points": 40000,
+      "joinDate": "2022-03-05",
+      "lastVisit": "2024-04-01",
+      "totalSpent": 60000,
+      "preferences": ["Adventure Tours", "Exclusive Dining", "Lake Cruises"],
+      "visitHistory": [
+        { "id": "v16", "date": "2024-04-01T10:00:00Z", "type": "Adventure", "amount": 600, "location": "Entoto" },
+        { "id": "v17", "date": "2024-03-15T14:30:00Z", "type": "Hotel", "amount": 1500, "location": "Bishoftu" },
+        { "id": "v18", "date": "2024-02-28T11:00:00Z", "type": "Spa", "amount": 450, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.05
+    },
+    {
+      "id": "mem-7",
+      "name": "Rahel Assefa",
+      "email": "rahel.a@example.com",
+      "tier": "Silver",
+      "points": 11000,
+      "joinDate": "2023-08-10",
+      "lastVisit": "2024-04-10",
+      "totalSpent": 18000,
+      "preferences": ["Restaurant", "Family Dining", "Historical Sites"],
+      "visitHistory": [
+        { "id": "v19", "date": "2024-04-10T12:00:00Z", "type": "Restaurant", "amount": 220, "location": "Addis Ababa" },
+        { "id": "v20", "date": "2024-03-30T16:30:00Z", "type": "Hotel", "amount": 700, "location": "Addis Ababa" },
+        { "id": "v21", "date": "2024-03-15T10:00:00Z", "type": "Adventure", "amount": 380, "location": "Entoto" }
+      ],
+      "churnRisk": 0.3
+    },
+    {
+      "id": "mem-8",
+      "name": "Yonas Lemma",
+      "email": "yonas.l@example.com",
+      "tier": "Bronze",
+      "points": 5000,
+      "joinDate": "2024-01-01",
+      "lastVisit": "2024-04-12",
+      "totalSpent": 8000,
+      "preferences": ["Hotel", "Quick Stays", "Nature Walks"],
+      "visitHistory": [
+        { "id": "v22", "date": "2024-04-12T14:00:00Z", "type": "Hotel", "amount": 500, "location": "Bishoftu" },
+        { "id": "v23", "date": "2024-04-02T11:30:00Z", "type": "Restaurant", "amount": 180, "location": "Bishoftu" },
+        { "id": "v24", "date": "2024-03-20T09:30:00Z", "type": "Adventure", "amount": 300, "location": "Entoto" }
+      ],
+      "churnRisk": 0.5
+    },
+    {
+      "id": "mem-9",
+      "name": "Marta Haile",
+      "email": "marta.h@example.com",
+      "tier": "Gold",
+      "points": 25000,
+      "joinDate": "2022-09-25",
+      "lastVisit": "2024-03-25",
+      "totalSpent": 38000,
+      "preferences": ["Spa", "Couples Retreat", "Art Galleries"],
+      "visitHistory": [
+        { "id": "v25", "date": "2024-03-25T13:00:00Z", "type": "Spa", "amount": 400, "location": "Lake Tana" },
+        { "id": "v26", "date": "2024-03-10T17:00:00Z", "type": "Restaurant", "amount": 300, "location": "Addis Ababa" },
+        { "id": "v27", "date": "2024-02-28T14:00:00Z", "type": "Hotel", "amount": 1000, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.1
+    },
+    {
+      "id": "mem-10",
+      "name": "Samuel Teshome",
+      "email": "samuel.t@example.com",
+      "tier": "Platinum",
+      "points": 55000,
+      "joinDate": "2022-01-10",
+      "lastVisit": "2024-04-15",
+      "totalSpent": 80000,
+      "preferences": ["Adventure Tours", "VIP Services", "Private Events"],
+      "visitHistory": [
+        { "id": "v28", "date": "2024-04-15T11:00:00Z", "type": "Adventure", "amount": 700, "location": "Entoto" },
+        { "id": "v29", "date": "2024-04-01T15:30:00Z", "type": "Hotel", "amount": 1800, "location": "Bishoftu" },
+        { "id": "v30", "date": "2024-03-20T12:00:00Z", "type": "Spa", "amount": 500, "location": "Lake Tana" }
+      ],
+      "churnRisk": 0.02
+    }
+  ]
+}
