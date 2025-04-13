@@ -1,4 +1,3 @@
-import React from 'react';
 import { mockMembers } from '../data/mockData';
 import { BarChart3, Users, TrendingUp, AlertTriangle } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { mockMembers } from '../data/mockData';
 import { Search, Filter } from 'lucide-react';
 

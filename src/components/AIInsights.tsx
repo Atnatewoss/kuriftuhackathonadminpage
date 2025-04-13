@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { mockMembers } from '../data/mockData';
-import { Brain, TrendingUp, UserCheck, AlertTriangle, LineChart, Award, Target } from 'lucide-react';
+import { Brain, TrendingUp, LineChart, Award, Target } from 'lucide-react';
 import { LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 export const AIInsights = () => {
